@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: "Rizky Indrabayu",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "AI/ML | NLP | Backend Developer",
+    role: "AI | NLP | Backend Developer",
     bio: "Love cats",
     email: "rizkyindra2082@gmail.com",
     linkedin: "rizky-indrabayu-ab0a66272",
@@ -12,8 +12,24 @@ const CONFIG = {
   },
   projects: [
     {
-      name: ``,
-      href: "",
+      name: `Predicting Citation Counts with Machine Learning: A Citation Function Approach`,
+      href: "https://ieeexplore.ieee.org/document/10763344",
+    },
+    {
+      name: `Predicting the Sentiment of Review Aspects in the Peer Review Text using Machine Learning`,
+      href: "https://kinetik.umm.ac.id/index.php/kinetik/article/view/2042"
+    },
+    {
+      name: `Automatic Categorization of Mental Health Frame in Indonesian X (Twitter)`,
+      href: ""
+    },
+    {
+      name: `Detection of the Research Trend in the Computer Vision Domain`,
+      href: ""
+    },
+    {
+      name: `Preparing Prompts Engineering for Muhammadiyah School`,
+      href: ""
     },
   ],
   // blog setting (required)

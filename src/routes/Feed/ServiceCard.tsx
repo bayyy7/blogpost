@@ -9,7 +9,7 @@ const ServiceCard: React.FC = () => {
   return (
     <>
       <StyledTitle>
-        <Emoji>🌟</Emoji> Service
+        Publications
       </StyledTitle>
       <StyledWrapper>
         {CONFIG.projects.map((project, idx) => (
@@ -43,12 +43,15 @@ const StyledWrapper = styled.div`
   border-radius: 1rem;
   background-color: ${({ theme }) =>
     theme.scheme === "light" ? "white" : theme.colors.gray4};
+  width: 100%;
   > a {
     display: flex;
     padding: 0.75rem;
     gap: 0.75rem;
     align-items: center;
     border-radius: 1rem;
+    width: 100%;
+    max-width: 600px;
     color: ${({ theme }) => theme.colors.gray11};
     cursor: pointer;
 

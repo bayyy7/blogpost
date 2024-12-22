@@ -12,24 +12,22 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Predicting Citation Counts with Machine Learning: A Citation Function Approach`,
-      href: "https://ieeexplore.ieee.org/document/10763344",
+      title: "AI Developer",
+      year: "2024 - Current",
+      company: "Dwidasa - PAC Group",
+      href: "https://pactindo.com/home/",
     },
     {
-      name: `Predicting the Sentiment of Review Aspects in the Peer Review Text using Machine Learning`,
-      href: "https://kinetik.umm.ac.id/index.php/kinetik/article/view/2042"
+      title: "Founder and Developer",
+      year: "2024 - Current",
+      company: "MentalChat.id",
+      href: "https://www.instagram.com/mentalchat.id/",
     },
     {
-      name: `Automatic Categorization of Mental Health Frame in Indonesian X (Twitter)`,
-      href: ""
-    },
-    {
-      name: `Detection of the Research Trend in the Computer Vision Domain`,
-      href: ""
-    },
-    {
-      name: `Preparing Prompts Engineering for Muhammadiyah School`,
-      href: ""
+      title: "AI Research Assistant",
+      year: "2023 - 2024",
+      company: "Informatika - UMM",
+      href: "https://informatika.umm.ac.id",
     },
   ],
   // blog setting (required)
